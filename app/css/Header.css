@@ -1,0 +1,19 @@
+header{
+    size: 10px;
+  
+    background-color: #A99FFF; /* Cambia el color de fondo según tus preferencias */
+    color: #fff; /* Cambia el color del texto según tus preferencias */
+   /* Añade espaciado superior e inferior */
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+
+div{
+
+display: flex;
+flex-direction: wrap;
+justify-content: center;
+align-items: center;
+}

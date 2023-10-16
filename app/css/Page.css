@@ -1,0 +1,85 @@
+.div_contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; /* Cambiamos a min-height */
+  }
+  
+  .div_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px; /* Establece un ancho máximo para el contenido */
+    padding: 20px; /* Añade espacio alrededor del contenido */
+    box-sizing: border-box; /* Evita que el padding afecte el ancho total */
+  }
+  
+  .div_main_txt {
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    border: none;
+    border-bottom: 2px solid #333;
+    padding: 10px;
+    width: 80vh;
+    margin-bottom: 20px;
+    outline: none;
+    transition: border-bottom-color 0.3s ease;
+    border-radius: 10px 10px;
+  }
+  
+  input[type="text"]:focus {
+    border-bottom-color: #242527;
+    border-radius: 10px 10px;
+  }
+  
+  .div_btn {
+    text-align: center;
+  }
+  
+ 
+ 
+  
+  
+  .div_resultado {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+/* Estilos para el título */
+h1 {
+  font-size: 24px; /* Tamaño de fuente del título */
+  background-color: #77777705;
+  margin: 0;
+}
+
+/* Estilos para la lista de navegación */
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+ul li {
+  margin-right: 20px; /* Espacio entre elementos de la lista */
+}
+
+/* Estilos para los enlaces de navegación */
+ul li a {
+  text-decoration: none;
+  color: #fff; /* Cambia el color de los enlaces según tus preferencias */
+  font-weight: bold;
+  font-size: 16px; /* Tamaño de fuente de los enlaces */
+}
+
+/* Estilos para los enlaces de navegación al pasar el ratón por encima */
+ul li a:hover {
+  text-decoration: overline; /* Puedes cambiar el efecto al pasar el ratón por encima */
+}
+
+
+
+ 
+
